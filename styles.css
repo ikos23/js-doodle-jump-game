@@ -1,0 +1,46 @@
+.board {
+    position: relative;
+    background-color: #ffebcd;
+    margin: auto;
+}
+
+.doodle {
+    position: absolute;
+    background-color: transparent;
+    background-image: url('./doodle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.platform {
+    background-color: green;
+    position: absolute;
+}
+
+.score {
+    position: absolute;
+    z-index: 5;
+    font-size: 30px;
+    top: 10px;
+    left: 15px;
+    font-weight: bold;
+}
+
+.startBtn {
+    position: absolute;
+    z-index: 5;
+    font-size: 30px;
+    top: 280px;
+    left: 140px;
+    font-weight: bold;
+}
+
+.gameOver {
+    position: absolute;
+    top: 260px;
+    left: 120px;
+    background-color: #881616;
+    color: #fff;
+    padding: 5px;
+}
